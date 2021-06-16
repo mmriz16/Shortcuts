@@ -1,0 +1,55 @@
+:root {
+    --black: #000;
+    --white: #fff;
+    --red-accent: #ff3241;
+    --black-accent: #1b1e21;
+    --white-trans: rgba(255, 255, 255, 0.7);
+  }
+
+  body {
+    background-color: var(--black);
+    overflow-x: hidden;
+  }
+
+  /* Scrollbar */
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    background: rgba(0, 0, 0, 0);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--red-accent);
+    border-radius: 10px;
+  }
+
+  /* Navbar */
+  .contact-bar-left .contact-bar-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--white);
+  }
+
+  .contact-bar-subtitle {
+    font-size: 12px;
+    font-weight: normal;
+    color: var(--white-trans);
+  }
+
+  .contact-bar-right .icon {
+    display: flex;
+    align-items: flex-end;
+    color: var(--white-trans);
+    margin-left: 30px;
+    text-decoration: none;
+  }
+
+  .contact-bar-right .icon:hover {
+    color: var(--red-accent);
+  }
+
+  .contact-bar-social {
+    font-size: 12px;
+    font-weight: bold;
+    color: var(--white-trans);
+  }
