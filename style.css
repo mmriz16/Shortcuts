@@ -53,3 +53,74 @@
     font-weight: bold;
     color: var(--white-trans);
   }
+
+  /* Hero Section */
+.hero-container {
+  margin-top: 100px;
+}
+
+.hero-left {
+  padding-right: 15px !important;
+}
+
+.hero-left .p-small-header {
+  font-weight: bold;
+  font-size: 24px;
+  color: var(--white-trans);
+}
+
+.hero-left h1 {
+  font-size: 72px;
+  color: var(--white);
+  font-weight: bold;
+}
+
+.hero-left .updated {
+  text-decoration: none;
+  font-size: 28px;
+  margin: 24px 0px 32px 0px;
+  color: var(--red-accent);
+  line-height: 43px;
+}
+
+.hero-left .p-link {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--red-accent);
+  transition: text-decoration 2s;
+}
+
+.hero-left .p-link:hover {
+  text-decoration: underline;
+}
+
+.hero-left .a-big {
+  font-size: 28px;
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--red-accent);
+}
+
+.hero-left .a-big:hover {
+  text-decoration: underline;
+}
+
+.hero-right {
+  padding: 15px !important;
+}
+
+.hero-right .img {
+  width: 80%;
+  border-radius: 10px;
+}
+
+/* Card Shortcuts */
+.shortcuts-card-row .shortcuts-card-right{
+  margin-top: 30px;
+}
+
+.shortcuts-card-right .card{
+  border-radius: 20px;
+  background-color: var(--black-accent);
+  color: var(--white);
+}
