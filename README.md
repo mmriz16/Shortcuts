@@ -16,7 +16,7 @@ Please keep the code/data clean and consistent by using the following symbols wh
 | Arrow keys | ↑ ↓ ← → |
 
 ## About the designer / developer
-Hi, I'm [Miftakhul Rizky](https://redma.my.id), I created [Redma Shortcuts](http://shortcuts.redma.my.id/) to help others charge their workflow. I'm a Product Designer on a mission to build products for others that enable them to become more productive and effective · Graphic Designer [@YipYip](https://dianglobaltech.co.id/) · Prev [@STMIKBandung](https://www.stmik-bandung.ac.id/).
+Hi, I'm [Miftakhul Rizky](https://redma.my.id), I created [Redma Shortcuts](http://shortcuts.redma.my.id/) to help others charge their workflow. I'm a Product Designer on a mission to build products for others that enable them to become more productive and effective · Graphic Designer [@Dian Global Tech](https://dianglobaltech.co.id/) · Prev [@STMIKBandung](https://www.stmik-bandung.ac.id/).
 
 ## License
 This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
