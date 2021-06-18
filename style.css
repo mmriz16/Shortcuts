@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 :root {
     --black: #000;
     --white: #fff;
     --red-accent: #ff3241;
     --black-accent: #1b1e21;
     --white-trans: rgba(255, 255, 255, 0.7);
+  }
+
+  *{
+    font-family: 'Poppins', sans-serif;
   }
 
   body {
@@ -69,8 +74,17 @@
   color: var(--white-trans);
 }
 
+.hero-left .caption-header{
+  color: var(--white);
+}
+
+.hero-left .caption-header a{
+  text-decoration: none;
+  color: var(--red-accent);
+}
+
 .hero-left h1 {
-  font-size: 72px;
+  font-size: 56px;
   color: var(--white);
   font-weight: bold;
 }
@@ -120,7 +134,45 @@
 }
 
 .shortcuts-card-right .card{
+  text-decoration: none;
   border-radius: 20px;
   background-color: var(--black-accent);
+  color: var(--white);
+}
+
+/* Work Section */
+.work-container {
+  margin: 120px 0 120px 0;
+}
+
+.work-container .row .col-12 h2 {
+  color: var(--white);
+  font-size: 54px;
+}
+
+.work-container .row .col-12 .p-big {
+  color: var(--white-trans);
+  font-size: 24px;
+  letter-spacing: 2px;
+  margin: 24px 0 32px 0;
+}
+
+.work-container .row .col-12 .p-big .a-big {
+  font-size: 28px;
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--red-accent);
+}
+
+.work-container .row .col-12 .p-big .a-big:hover {
+  text-decoration: underline;
+}
+
+.work-row {
+  padding: 56px 0 32px 0;
+}
+
+/* Footer */
+.col-12 .contact-bar-footer{
   color: var(--white);
 }
