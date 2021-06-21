@@ -12,7 +12,7 @@
   }
 
   body {
-    background-color: var(--black);
+    background-color: #1b1e21 !important;
     overflow-x: hidden;
   }
 
@@ -138,6 +138,10 @@
   border-radius: 20px;
   background-color: var(--black-accent);
   color: var(--white);
+}
+
+.shortcuts-card-right .card .card-title{
+  font-size: 16px;
 }
 
 /* Work Section */
